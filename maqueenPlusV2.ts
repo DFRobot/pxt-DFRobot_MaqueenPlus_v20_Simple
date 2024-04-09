@@ -537,11 +537,11 @@ namespace maqueenPlusV2 {
     //     ws2812b.sendBuffer(neopixel_buf, DigitalPin.P15)
     // }
 
-    export enum HueInterpolationDirection {
-        Clockwise,
-        CounterClockwise,
-        Shortest
-    }
+    // export enum HueInterpolationDirection {
+    //     Clockwise,
+    //     CounterClockwise,
+    //     Shortest
+    // }
 
     function writeBuff(index: number, rgb: number) {
         let r = (rgb >> 16) * (_brightness / 255);
